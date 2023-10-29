@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  padding: 100px;
+}
+.login {
+  display: flex;
+}
+.left-div {
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-div img {
+  width: 300px;
+}
+.right-div {
+  width: 50%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+  padding: 30px;
+}
+.right-div h1 {
+  text-align: center;
+}
+.login-id {
+  display: flex;
+  flex-direction: column;
+}
+.login-id input {
+  width: 100%;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+}
+.password input {
+  width: 100%;
+}
+.MuiFormControl-root {
+  width: 100% !important;
+}
+.change-pass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.term {
+}
+.login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.login-btn button {
+  width: 50%;
+  background-color: #1575a7;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+a {
+  color: #f89636;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .login {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .App {
+    padding: 20px;
+  }
+  .left-div,
+  .right-div {
+    width: 100%;
+  }
+}
